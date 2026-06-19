@@ -45,3 +45,15 @@ h1 {
 body{
     margin: 0px;
 }
+
+.card{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.card img{
+    width: 100%;
+}

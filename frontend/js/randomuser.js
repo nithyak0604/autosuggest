@@ -8,8 +8,8 @@ function random(){
     })
     .then(function(data){
         var user=data.results[0];
-        var fullName=user.name.title+" "+user.name.first+" "+user.name.last;
-        document.getElementById("user-img").src=user.picture.large;
+        //var fullName=user.name.title+" "+user.name.first+" "+user.name.last;
+        document.getElementById("user-img").src=user;
         document.getElementById("user-name").innerText=fullName;
         document.getElementById("user-gender").innerText=user.gender;
     })
